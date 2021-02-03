@@ -19,11 +19,11 @@ def login():
     
     # 输入手机号
     phone=driver.find_element_by_xpath('//*[@id="mobile"]')
-    phone.send_keys('17727984979')
+    phone.send_keys('your account')
     
     # 输入密码
     password = driver.find_element_by_xpath('//*[@id="password"]')
-    password.send_keys('lq118083')
+    password.send_keys('your passwd')
     
     ensure = driver.find_element_by_xpath('//*[@id="web-content"]/div/div[2]/div/div/div[3]/div[3]/div[2]/div[4]')
     ensure.click()
